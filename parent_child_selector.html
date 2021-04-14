@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<title>부모 자식 셀렉터 연습(CSS)</title>
+<meta charset="utf-8">
+<html lang ="kor">
+<html>
+    <head>
+        <style>
+            h2{
+                color:gray;
+            }
+            ul li{
+                color:midnightblue;
+                font-style: 
+            }
+            #Lee>li{
+                border:1px solid navy;
+            }
+            ul,ol{
+                background-color: powderblue;
+            }
+        </style>
+    </head>
+    <body>
+        <h2 class="Head Line">ul type list</h2>
+        <ul>
+            <li><a href="https://edu.goorm.io/learn/lecture/12959/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-web1-html-and-internet">HTML</a></li>
+            <li><a href="https://www.youtube.com/watch?v=SXilY8XVDK8&list=PLuHgQVnccGMDaVaBmkX0qfB45R_bYrV62&index=8&ab_channel=%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9">CSS</a></li>
+            <li>JavaScript</li>
+        </ul>
+        <h2>ol type list</h2>
+        <ol id="Lee">
+            <li>HTML</li>
+            <li>CSS</li>
+                <ol>
+                    <li>select</li> 
+                    <li>declaration</li>
+                </ol>
+            <li>JavaScript</li>
+        </ol>
+        여기는 이우찬의 홈페이지!
+    </body>
+</html>
